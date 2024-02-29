@@ -1,8 +1,5 @@
 /** different synth options */
 let synth = new Tone.PolySynth(Tone.Synth); 
-// let synth = new Tone.PolySynth(Tone.Synth); 
-// let synth = new Tone.PolySynth(Tone.DuoSynth); 
-// let synth = new Tone.PolySynth(Tone.MembraneSynth); 
 
 let bend = new Tone.PitchShift();
 bend.pitch = 0; 
